@@ -7,9 +7,9 @@ def SOE(n):
                 Prime_number[k]=False
 if(__name__=="__main__"):
     Prime_number=[]
-    n=int(input("Enter the number:"))
+    n=int(input("Enter the limit of prime number:"))
     SOE(n)
-    print("Prime numbers are:")
+    print("Prime numbers less than ",n," are:")
     for i in range(0,n+1):
         if(Prime_number[i]):
             print(i,end=" ")
